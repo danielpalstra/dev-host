@@ -17,10 +17,6 @@ cd /tmp
 git clone $REPO_URL /tmp/dev-host && \
 cd /tmp/dev-host
 
-ls -l 
-
-exit 1
-
 # install ansible
 echo "Installing latest ansible"
 sudo apt-get install -y software-properties-common

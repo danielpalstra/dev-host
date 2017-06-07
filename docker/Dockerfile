@@ -2,7 +2,7 @@
 FROM ubuntu:16.04
 
 RUN apt-get update && \
-    apt-get install -y sudo vim
+    apt-get install -y sudo vim curl
 
 # Don't start any optional services except for the few we need.
 #RUN find /etc/systemd/system \
