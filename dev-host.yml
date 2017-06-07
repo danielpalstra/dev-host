@@ -3,4 +3,4 @@
   tasks:
     - shell: echo "hello world"
   roles:
-    - mongrelion.docker
+    - angstwad.docker_ubuntu
